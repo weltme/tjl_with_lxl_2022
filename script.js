@@ -5,18 +5,21 @@ const main = document.getElementById('main');
 let parts = [];
 
 let images = [
- 'https://picture-tjl.oss-cn-hangzhou.aliyuncs.com/lxl/IMG_20220521_150505.jpg',
-'https://picture-tjl.oss-cn-hangzhou.aliyuncs.com/lxl/IMG_20220521_152320.jpg',
-'https://picture-tjl.oss-cn-hangzhou.aliyuncs.com/lxl/IMG_20220603_181151_1.jpg',
-'https://picture-tjl.oss-cn-hangzhou.aliyuncs.com/lxl/IMG_20220705_211141.jpg',
-'https://picture-tjl.oss-cn-hangzhou.aliyuncs.com/lxl/IMG_20230120_204432.jpg',
-'https://picture-tjl.oss-cn-hangzhou.aliyuncs.com/lxl/IMG_20230120_204604.jpg',
-'https://picture-tjl.oss-cn-hangzhou.aliyuncs.com/lxl/IMG_20230120_204909.jpg',
-'https://picture-tjl.oss-cn-hangzhou.aliyuncs.com/lxl/mmexport1666193588558.jpg',
-'https://picture-tjl.oss-cn-hangzhou.aliyuncs.com/lxl/mmexport1666193594184.jpg',
-'https://picture-tjl.oss-cn-hangzhou.aliyuncs.com/lxl/mmexport1666834004411.jpg',
-'https://picture-tjl.oss-cn-hangzhou.aliyuncs.com/lxl/mmexport1666834010816.jpg',
-'https://picture-tjl.oss-cn-hangzhou.aliyuncs.com/lxl/mmexport1666834014670.jpg', 
+ './src/IMG_20220521_150505.jpg',
+'./src/IMG_20220521_152320.jpg',
+'./src/IMG_20220603_181151_1.jpg',
+'./src/IMG_20220705_211141.jpg',
+'./src/IMG_20230120_204432.jpg',
+'./src/IMG_20230120_204604.jpg',
+'./src/IMG_20230120_204909.jpg',
+'./src/mmexport1666193588558.jpg',
+'./src/mmexport1666193594184.jpg',
+'./src/mmexport1666834004411.jpg',
+'./src/mmexport1666834010816.jpg',
+'./src/mmexport1666834014670.jpg', 
+'./src/IMG_20230120_223606.jpg',
+'./src/IMG_20230120_223657.jpg',
+'./src/mmexport1667639920808.jpg'
 ];
 let current = 0;
 let playing = false;
